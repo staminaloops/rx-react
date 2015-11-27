@@ -24,7 +24,7 @@
   "licenses": "Apache-2.0",
   "peerDependencies": {
     "react": "^0.14.0",
-    "rx": "*"
+    "rx-lite": "*"
   },
   "devDependencies": {
     "eslint": "^1.4.1",
@@ -33,7 +33,7 @@
     "jsdom": "^6.5.0",
     "react": "^0.14.0",
     "react-dom": "^0.14.0",
-    "rx": "*",
+    "rx-lite": "*",
     "sinon": "^1.16.1",
     "tape": "^4.2.0"
   },
