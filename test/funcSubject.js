@@ -16,7 +16,7 @@
 
 var test = require('tape');
 var FuncSubject = require('../').FuncSubject;
-var Rx = require('rx');
+var Rx = require('rx-lite');
 var sinon = require('sinon');
 
 test('FuncSubject', function (t) {
