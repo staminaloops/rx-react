@@ -2,6 +2,7 @@
 
 Fork from https://github.com/fdecampredon/rx-react but with rx-lite dependency instead of rx.
 This is mostly for my usecases, but it can be usefull for other people that use rx-lite instead of the full rx.
+Attention: For now, just tested with PropsMixin.
 
 >  [ReactJS](http://facebook.github.io/react/) bindings for [RxJS lite](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/libraries/lite/rx.lite.md)
 
