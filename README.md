@@ -1,8 +1,8 @@
 # RxReact
 
 Fork from https://github.com/fdecampredon/rx-react but with rx-lite dependency instead of rx.
-This is mostly for my usecases, but it can be usefull for other people that use rx-lite instead of the full rx.
-Attention: For now, just tested with PropsMixin.
+This is mostly for my usecases, but it can be usefull for other people that use rx-lite instead of the full rx.  
+**Attention: For now, just tested in a project PropsMixin, but all the original tests are passing**.
 
 >  [ReactJS](http://facebook.github.io/react/) bindings for [RxJS lite](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/libraries/lite/rx.lite.md)
 
@@ -45,7 +45,7 @@ Example:
 ```javascript
 var StateStreamMixin = require('rx-react').StateStreamMixin;
 var React = require('react');
-var Rx = require('rx');
+var Rx = require('rx-lite');
 
 
 var Timer = React.createClass({
@@ -79,7 +79,7 @@ Example :
 ```javascript
 var LifecycleMixin = require('rx-react').LifecycleMixin;
 var React = require('react');
-var Rx = require('rx');
+var Rx = require('rx-lite');
 
 
 var Component = React.createClass({
@@ -146,7 +146,7 @@ Example:
 
 ```javascript
 var RxReact = require('rx-react');
-var Rx = require('rx');
+var Rx = require('rx-lite');
 
 class MyComponent extends RxReact.Component {
   getStateStream() {
@@ -184,7 +184,7 @@ Example:
 ```javascript
 var FuncSubject = require('rx-react').FuncSubject;
 var React = require('react');
-var Rx = require('rx');
+var Rx = require('rx-lite');
 
 
 var Button = React.createClass({
@@ -207,7 +207,7 @@ This function will *always* be called even if the `FuncSubject` has no subscript
 ```javascript
 var FuncSubject = require('rx-react').FuncSubject;
 var React = require('react');
-var Rx = require('rx');
+var Rx = require('rx-lite');
 
 
 var MyComponent = React.createClass({

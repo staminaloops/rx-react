@@ -19,7 +19,7 @@ var test = require('tape');
 var React = require('react');
 var StateStreamMixin = require('../').StateStreamMixin;
 var cleanAllSubscriptions = require('../').cleanAllSubscriptions;
-var Rx = require('rx');
+var Rx = require('rx-lite');
 var sinon = require('sinon');
 
 

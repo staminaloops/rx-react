@@ -2,7 +2,7 @@
 
 var StateStreamMixin = require('rx-react').StateStreamMixin;
 var React = require('react');
-var Rx = require('rx');
+var Rx = require('rx-lite');
 
 
 var Timer = React.createClass({

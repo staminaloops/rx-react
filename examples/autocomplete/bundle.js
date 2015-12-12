@@ -20159,7 +20159,7 @@ module.exports = require('./lib/React');
       return root.Rx;
     });
   } else if (typeof module === 'object' && module && module.exports === freeExports) {
-    module.exports = factory(root, module.exports, require('rx'));
+    module.exports = factory(root, module.exports, require('rx-lite'));
   } else {
     root.Rx = factory(root, {}, root.Rx);
   }
@@ -21007,7 +21007,7 @@ module.exports = require('./lib/React');
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
 
 },{"rx":181}],160:[function(require,module,exports){
-var Rx = require('rx');
+var Rx = require('rx-lite');
 require('./dist/rx.dom');
 module.exports = Rx;
 },{"./dist/rx.dom":159,"rx":181}],161:[function(require,module,exports){
@@ -21120,7 +21120,7 @@ module.exports = {
 //   limitations under the License.
 
 
-var Rx = require('rx');
+var Rx = require('rx-lite');
 
 
 
@@ -21174,7 +21174,7 @@ module.exports = {
 //   limitations under the License.
 
 
-var Rx = require('rx');
+var Rx = require('rx-lite');
 
 /**
  * A Mixin that exposes lifecycle as RxJS Observables
@@ -21241,7 +21241,7 @@ module.exports = LifecycleMixin;
 
 
 
-var Rx = require('rx');
+var Rx = require('rx-lite');
 
 /**
  * A Mixin that exposes props as RxJS Observables
@@ -21429,7 +21429,7 @@ module.exports = function () {};
 
     // Because of build optimizers
     if (typeof define === 'function' && define.amd) {
-        define(['rx'], function (Rx, exports) {
+        define(['rx-lite'], function (Rx, exports) {
             return factory(root, exports, Rx);
         });
     } else if (typeof module === 'object' && module && module.exports === freeExports) {
@@ -22725,7 +22725,7 @@ module.exports = function () {};
 
     // Because of build optimizers
     if (typeof define === 'function' && define.amd) {
-        define(['rx'], function (Rx, exports) {
+        define(['rx-lite'], function (Rx, exports) {
             return factory(root, exports, Rx);
         });
     } else if (typeof module === 'object' && module && module.exports === freeExports) {
@@ -23297,7 +23297,7 @@ module.exports = function () {};
 
     // Because of build optimizers
     if (typeof define === 'function' && define.amd) {
-        define(['rx'], function (Rx, exports) {
+        define(['rx-lite'], function (Rx, exports) {
             return factory(root, exports, Rx);
         });
     } else if (typeof module === 'object' && module && module.exports === freeExports) {
@@ -23784,7 +23784,7 @@ module.exports = function () {};
 
     // Because of build optimizers
     if (typeof define === 'function' && define.amd) {
-        define(['rx'], function (Rx, exports) {
+        define(['rx-lite'], function (Rx, exports) {
             return factory(root, exports, Rx);
         });
     } else if (typeof module === 'object' && module && module.exports === freeExports) {
@@ -24604,7 +24604,7 @@ module.exports = function () {};
 
     // Because of build optimizers
     if (typeof define === 'function' && define.amd) {
-        define(['rx'], function (Rx, exports) {
+        define(['rx-lite'], function (Rx, exports) {
             return factory(root, exports, Rx);
         });
     } else if (typeof module === 'object' && module && module.exports === freeExports) {
@@ -25193,7 +25193,7 @@ module.exports = function () {};
 
     // Because of build optimizers
     if (typeof define === 'function' && define.amd) {
-        define(['rx'], function (Rx, exports) {
+        define(['rx-lite'], function (Rx, exports) {
             return factory(root, exports, Rx);
         });
     } else if (typeof module === 'object' && module && module.exports === freeExports) {
@@ -30700,7 +30700,7 @@ module.exports = function () {};
 
     // Because of build optimizers
     if (typeof define === 'function' && define.amd) {
-        define(['rx'], function (Rx, exports) {
+        define(['rx-lite'], function (Rx, exports) {
             return factory(root, exports, Rx);
         });
     } else if (typeof module === 'object' && module && module.exports === freeExports) {
@@ -31312,7 +31312,7 @@ var ReactiveTest = Rx.ReactiveTest = {
 
     // Because of build optimizers
     if (typeof define === 'function' && define.amd) {
-        define(['rx'], function (Rx, exports) {
+        define(['rx-lite'], function (Rx, exports) {
             return factory(root, exports, Rx);
         });
     } else if (typeof module === 'object' && module && module.exports === freeExports) {
@@ -32442,7 +32442,7 @@ var ReactiveTest = Rx.ReactiveTest = {
 
     // Because of build optimizers
     if (typeof define === 'function' && define.amd) {
-        define(['rx'], function (Rx, exports) {
+        define(['rx-lite'], function (Rx, exports) {
             return factory(root, exports, Rx);
         });
     } else if (typeof module === 'object' && module && module.exports === freeExports) {
