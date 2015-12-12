@@ -1,5 +1,5 @@
 {
-  "name": "basic-state-stream",
+  "name": "autocomplete-example",
   "description": "Basic RxReact.StateStream example",
   "main": "index.js",
   "scripts": {
@@ -9,9 +9,8 @@
     "envify": "^3.2.0",
     "react": "^0.13.0",
     "reactify": "^0.17.1",
-    "rx": "^2.3.18",
     "rx-dom": "^4.0.1",
-    "rx-react": "0.2.0",
+    "rx-react": "git://github.com/staminaloops/rx-react.git",
     "browserify": "^8.1.3"
   },
   "browserify": {
@@ -24,5 +23,8 @@
       ],
       "envify"
     ]
+  },
+  "dependencies": {
+    "rx-lite": "^4.0.7"
   }
 }
