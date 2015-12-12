@@ -1,14 +1,22 @@
 # RxReact
 
->  [ReactJS](http://facebook.github.io/react/) bindings for [RxJS](https://github.com/Reactive-Extensions/RxJS)
+>  [ReactJS](http://facebook.github.io/react/) bindings for [RxJS lite](https://github.com/Reactive-Extensions/RxJS/blob/master/doc/libraries/lite/rx.lite.md)
 
 
 # Installation
 
-Install this module with npm: 
+Install rx-lite with npm: 
 
 ```
-npm install rx-react
+npm install rx-lite
+```
+On your package.json replace
+```
+"rx-react": "v..."
+```
+with
+```
+"rx-react": "git://github.com/staminaloops/rx-react.git"
 ```
 
 # Usage: 
